@@ -15,7 +15,7 @@ namespace WP_2020_01_MID_3A713155
     public partial class Form1 : Form
     {
         /// <summary>
-        /// 載入圖片
+        /// 為圖片產生陣列
         /// </summary>
         List<Image> res = new List<Image>();
         
@@ -126,7 +126,9 @@ namespace WP_2020_01_MID_3A713155
             }
             return;
         }
-
+        /// <summary>
+        /// 載入圖片
+        /// </summary>
         private void Form1_Load(object sender, EventArgs e)
         {
             res.Add(Resources.天秤);
