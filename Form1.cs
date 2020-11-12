@@ -80,9 +80,6 @@ namespace WP_2020_01_MID_3A713155
                     case "魔羯":
                         pic.Image = res[11];
                         break;
-                    case "天平":
-                        MessageBox.Show("秤啦幹","北七逆");
-                        break;
                     case "天蠍座":
                         pic.Image = res[1];
                         break;
@@ -115,9 +112,6 @@ namespace WP_2020_01_MID_3A713155
                         break;
                     case "魔羯座":
                         pic.Image = res[11];
-                        break;
-                    case "天平座":
-                        MessageBox.Show("秤啦幹", "北七逆");
                         break;
                     default:
                         MessageBox.Show("文字不符，請重新輸入星座", "錯誤警告");
